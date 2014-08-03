@@ -1,5 +1,5 @@
 //
-//  NHViewController.h
+//  NHLocationTableViewController.h
 //  Burger Wait Time
 //
 //  Created by mrhsu on 8/3/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NHViewController : UIViewController
+@interface NHLocationTableViewController : UITableViewController
 
 @end
