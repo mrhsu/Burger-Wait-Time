@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F43A648D198ECE3800FF039D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43A648C198ECE3800FF039D /* Foundation.framework */; };
+		F43A648F198ECE3800FF039D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43A648E198ECE3800FF039D /* CoreGraphics.framework */; };
+		F43A6491198ECE3800FF039D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43A6490198ECE3800FF039D /* UIKit.framework */; };
+		F43A6497198ECE3800FF039D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F43A6495198ECE3800FF039D /* InfoPlist.strings */; };
+		F43A6499198ECE3800FF039D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F43A6498198ECE3800FF039D /* main.m */; };
+		F43A649D198ECE3800FF039D /* NHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F43A649C198ECE3800FF039D /* NHAppDelegate.m */; };
+		F43A64A0198ECE3800FF039D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43A649E198ECE3800FF039D /* Main.storyboard */; };
+		F43A64A3198ECE3800FF039D /* NHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F43A64A2198ECE3800FF039D /* NHViewController.m */; };
+		F43A64A5198ECE3800FF039D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43A64A4198ECE3800FF039D /* Images.xcassets */; };
+		F43A64AC198ECE3800FF039D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43A64AB198ECE3800FF039D /* XCTest.framework */; };
+		F43A64AD198ECE3800FF039D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43A648C198ECE3800FF039D /* Foundation.framework */; };
+		F43A64AE198ECE3800FF039D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43A6490198ECE3800FF039D /* UIKit.framework */; };
+		F43A64B6198ECE3800FF039D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F43A64B4198ECE3800FF039D /* InfoPlist.strings */; };
+		F43A64B8198ECE3800FF039D /* Burger_Wait_TimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F43A64B7198ECE3800FF039D /* Burger_Wait_TimeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F43A64AF198ECE3800FF039D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F43A6481198ECE3800FF039D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F43A6488198ECE3800FF039D;
+			remoteInfo = "Burger Wait Time";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F43A6489198ECE3800FF039D /* Burger Wait Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Burger Wait Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43A648C198ECE3800FF039D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F43A648E198ECE3800FF039D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F43A6490198ECE3800FF039D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F43A6494198ECE3800FF039D /* Burger Wait Time-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Burger Wait Time-Info.plist"; sourceTree = "<group>"; };
+		F43A6496198ECE3800FF039D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F43A6498198ECE3800FF039D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F43A649A198ECE3800FF039D /* Burger Wait Time-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Burger Wait Time-Prefix.pch"; sourceTree = "<group>"; };
+		F43A649B198ECE3800FF039D /* NHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHAppDelegate.h; sourceTree = "<group>"; };
+		F43A649C198ECE3800FF039D /* NHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHAppDelegate.m; sourceTree = "<group>"; };
+		F43A649F198ECE3800FF039D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F43A64A1198ECE3800FF039D /* NHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHViewController.h; sourceTree = "<group>"; };
+		F43A64A2198ECE3800FF039D /* NHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHViewController.m; sourceTree = "<group>"; };
+		F43A64A4198ECE3800FF039D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F43A64AA198ECE3800FF039D /* Burger Wait TimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Burger Wait TimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43A64AB198ECE3800FF039D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F43A64B3198ECE3800FF039D /* Burger Wait TimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Burger Wait TimeTests-Info.plist"; sourceTree = "<group>"; };
+		F43A64B5198ECE3800FF039D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F43A64B7198ECE3800FF039D /* Burger_Wait_TimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Burger_Wait_TimeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F43A6486198ECE3800FF039D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43A648F198ECE3800FF039D /* CoreGraphics.framework in Frameworks */,
+				F43A6491198ECE3800FF039D /* UIKit.framework in Frameworks */,
+				F43A648D198ECE3800FF039D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43A64A7198ECE3800FF039D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43A64AC198ECE3800FF039D /* XCTest.framework in Frameworks */,
+				F43A64AE198ECE3800FF039D /* UIKit.framework in Frameworks */,
+				F43A64AD198ECE3800FF039D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F43A6480198ECE3800FF039D = {
+			isa = PBXGroup;
+			children = (
+				F43A6492198ECE3800FF039D /* Burger Wait Time */,
+				F43A64B1198ECE3800FF039D /* Burger Wait TimeTests */,
+				F43A648B198ECE3800FF039D /* Frameworks */,
+				F43A648A198ECE3800FF039D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F43A648A198ECE3800FF039D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F43A6489198ECE3800FF039D /* Burger Wait Time.app */,
+				F43A64AA198ECE3800FF039D /* Burger Wait TimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F43A648B198ECE3800FF039D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F43A648C198ECE3800FF039D /* Foundation.framework */,
+				F43A648E198ECE3800FF039D /* CoreGraphics.framework */,
+				F43A6490198ECE3800FF039D /* UIKit.framework */,
+				F43A64AB198ECE3800FF039D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F43A6492198ECE3800FF039D /* Burger Wait Time */ = {
+			isa = PBXGroup;
+			children = (
+				F43A649B198ECE3800FF039D /* NHAppDelegate.h */,
+				F43A649C198ECE3800FF039D /* NHAppDelegate.m */,
+				F43A649E198ECE3800FF039D /* Main.storyboard */,
+				F43A64A1198ECE3800FF039D /* NHViewController.h */,
+				F43A64A2198ECE3800FF039D /* NHViewController.m */,
+				F43A64A4198ECE3800FF039D /* Images.xcassets */,
+				F43A6493198ECE3800FF039D /* Supporting Files */,
+			);
+			path = "Burger Wait Time";
+			sourceTree = "<group>";
+		};
+		F43A6493198ECE3800FF039D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F43A6494198ECE3800FF039D /* Burger Wait Time-Info.plist */,
+				F43A6495198ECE3800FF039D /* InfoPlist.strings */,
+				F43A6498198ECE3800FF039D /* main.m */,
+				F43A649A198ECE3800FF039D /* Burger Wait Time-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F43A64B1198ECE3800FF039D /* Burger Wait TimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F43A64B7198ECE3800FF039D /* Burger_Wait_TimeTests.m */,
+				F43A64B2198ECE3800FF039D /* Supporting Files */,
+			);
+			path = "Burger Wait TimeTests";
+			sourceTree = "<group>";
+		};
+		F43A64B2198ECE3800FF039D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F43A64B3198ECE3800FF039D /* Burger Wait TimeTests-Info.plist */,
+				F43A64B4198ECE3800FF039D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F43A6488198ECE3800FF039D /* Burger Wait Time */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43A64BB198ECE3800FF039D /* Build configuration list for PBXNativeTarget "Burger Wait Time" */;
+			buildPhases = (
+				F43A6485198ECE3800FF039D /* Sources */,
+				F43A6486198ECE3800FF039D /* Frameworks */,
+				F43A6487198ECE3800FF039D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Burger Wait Time";
+			productName = "Burger Wait Time";
+			productReference = F43A6489198ECE3800FF039D /* Burger Wait Time.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F43A64A9198ECE3800FF039D /* Burger Wait TimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43A64BE198ECE3800FF039D /* Build configuration list for PBXNativeTarget "Burger Wait TimeTests" */;
+			buildPhases = (
+				F43A64A6198ECE3800FF039D /* Sources */,
+				F43A64A7198ECE3800FF039D /* Frameworks */,
+				F43A64A8198ECE3800FF039D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F43A64B0198ECE3800FF039D /* PBXTargetDependency */,
+			);
+			name = "Burger Wait TimeTests";
+			productName = "Burger Wait TimeTests";
+			productReference = F43A64AA198ECE3800FF039D /* Burger Wait TimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F43A6481198ECE3800FF039D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Jibberish;
+				TargetAttributes = {
+					F43A64A9198ECE3800FF039D = {
+						TestTargetID = F43A6488198ECE3800FF039D;
+					};
+				};
+			};
+			buildConfigurationList = F43A6484198ECE3800FF039D /* Build configuration list for PBXProject "Burger Wait Time" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F43A6480198ECE3800FF039D;
+			productRefGroup = F43A648A198ECE3800FF039D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F43A6488198ECE3800FF039D /* Burger Wait Time */,
+				F43A64A9198ECE3800FF039D /* Burger Wait TimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F43A6487198ECE3800FF039D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43A64A5198ECE3800FF039D /* Images.xcassets in Resources */,
+				F43A6497198ECE3800FF039D /* InfoPlist.strings in Resources */,
+				F43A64A0198ECE3800FF039D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43A64A8198ECE3800FF039D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43A64B6198ECE3800FF039D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F43A6485198ECE3800FF039D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43A64A3198ECE3800FF039D /* NHViewController.m in Sources */,
+				F43A649D198ECE3800FF039D /* NHAppDelegate.m in Sources */,
+				F43A6499198ECE3800FF039D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43A64A6198ECE3800FF039D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43A64B8198ECE3800FF039D /* Burger_Wait_TimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F43A64B0198ECE3800FF039D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F43A6488198ECE3800FF039D /* Burger Wait Time */;
+			targetProxy = F43A64AF198ECE3800FF039D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F43A6495198ECE3800FF039D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F43A6496198ECE3800FF039D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F43A649E198ECE3800FF039D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F43A649F198ECE3800FF039D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F43A64B4198ECE3800FF039D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F43A64B5198ECE3800FF039D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F43A64B9198ECE3800FF039D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F43A64BA198ECE3800FF039D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F43A64BC198ECE3800FF039D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Burger Wait Time/Burger Wait Time-Prefix.pch";
+				INFOPLIST_FILE = "Burger Wait Time/Burger Wait Time-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F43A64BD198ECE3800FF039D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Burger Wait Time/Burger Wait Time-Prefix.pch";
+				INFOPLIST_FILE = "Burger Wait Time/Burger Wait Time-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F43A64BF198ECE3800FF039D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Burger Wait Time.app/Burger Wait Time";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Burger Wait Time/Burger Wait Time-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Burger Wait TimeTests/Burger Wait TimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F43A64C0198ECE3800FF039D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Burger Wait Time.app/Burger Wait Time";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Burger Wait Time/Burger Wait Time-Prefix.pch";
+				INFOPLIST_FILE = "Burger Wait TimeTests/Burger Wait TimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F43A6484198ECE3800FF039D /* Build configuration list for PBXProject "Burger Wait Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43A64B9198ECE3800FF039D /* Debug */,
+				F43A64BA198ECE3800FF039D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F43A64BB198ECE3800FF039D /* Build configuration list for PBXNativeTarget "Burger Wait Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43A64BC198ECE3800FF039D /* Debug */,
+				F43A64BD198ECE3800FF039D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F43A64BE198ECE3800FF039D /* Build configuration list for PBXNativeTarget "Burger Wait TimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43A64BF198ECE3800FF039D /* Debug */,
+				F43A64C0198ECE3800FF039D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F43A6481198ECE3800FF039D /* Project object */;
+}
