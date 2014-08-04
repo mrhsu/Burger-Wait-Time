@@ -14,13 +14,19 @@
 		F43A6499198ECE3800FF039D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F43A6498198ECE3800FF039D /* main.m */; };
 		F43A649D198ECE3800FF039D /* NHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F43A649C198ECE3800FF039D /* NHAppDelegate.m */; };
 		F43A64A0198ECE3800FF039D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43A649E198ECE3800FF039D /* Main.storyboard */; };
-		F43A64A3198ECE3800FF039D /* NHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F43A64A2198ECE3800FF039D /* NHViewController.m */; };
 		F43A64A5198ECE3800FF039D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43A64A4198ECE3800FF039D /* Images.xcassets */; };
 		F43A64AC198ECE3800FF039D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43A64AB198ECE3800FF039D /* XCTest.framework */; };
 		F43A64AD198ECE3800FF039D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43A648C198ECE3800FF039D /* Foundation.framework */; };
 		F43A64AE198ECE3800FF039D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43A6490198ECE3800FF039D /* UIKit.framework */; };
 		F43A64B6198ECE3800FF039D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F43A64B4198ECE3800FF039D /* InfoPlist.strings */; };
 		F43A64B8198ECE3800FF039D /* Burger_Wait_TimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F43A64B7198ECE3800FF039D /* Burger_Wait_TimeTests.m */; };
+		F43A64C3198ECEDD00FF039D /* NHLocationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F43A64C2198ECEDD00FF039D /* NHLocationTableViewController.m */; };
+		F43A650E198F260300FF039D /* NHStores.m in Sources */ = {isa = PBXBuildFile; fileRef = F43A650D198F260300FF039D /* NHStores.m */; };
+		F43A6510198F291B00FF039D /* Westwood.png in Resources */ = {isa = PBXBuildFile; fileRef = F43A650F198F291B00FF039D /* Westwood.png */; };
+		F43A6512198F29F900FF039D /* Culver City.png in Resources */ = {isa = PBXBuildFile; fileRef = F43A6511198F29F900FF039D /* Culver City.png */; };
+		F43A6514198F2B3B00FF039D /* LAX.png in Resources */ = {isa = PBXBuildFile; fileRef = F43A6513198F2B3B00FF039D /* LAX.png */; };
+		F43A651F198F2FA600FF039D /* NHStoreObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F43A651E198F2FA600FF039D /* NHStoreObject.m */; };
+		F43A6521198F346B00FF039D /* Venice_Palms.png in Resources */ = {isa = PBXBuildFile; fileRef = F43A6520198F346B00FF039D /* Venice_Palms.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +51,22 @@
 		F43A649B198ECE3800FF039D /* NHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHAppDelegate.h; sourceTree = "<group>"; };
 		F43A649C198ECE3800FF039D /* NHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHAppDelegate.m; sourceTree = "<group>"; };
 		F43A649F198ECE3800FF039D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F43A64A1198ECE3800FF039D /* NHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHViewController.h; sourceTree = "<group>"; };
-		F43A64A2198ECE3800FF039D /* NHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHViewController.m; sourceTree = "<group>"; };
 		F43A64A4198ECE3800FF039D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F43A64AA198ECE3800FF039D /* Burger Wait TimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Burger Wait TimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43A64AB198ECE3800FF039D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F43A64B3198ECE3800FF039D /* Burger Wait TimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Burger Wait TimeTests-Info.plist"; sourceTree = "<group>"; };
 		F43A64B5198ECE3800FF039D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F43A64B7198ECE3800FF039D /* Burger_Wait_TimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Burger_Wait_TimeTests.m; sourceTree = "<group>"; };
+		F43A64C1198ECEDD00FF039D /* NHLocationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHLocationTableViewController.h; sourceTree = "<group>"; };
+		F43A64C2198ECEDD00FF039D /* NHLocationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHLocationTableViewController.m; sourceTree = "<group>"; };
+		F43A650C198F260300FF039D /* NHStores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NHStores.h; path = ../NHStores.h; sourceTree = "<group>"; };
+		F43A650D198F260300FF039D /* NHStores.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NHStores.m; path = ../NHStores.m; sourceTree = "<group>"; };
+		F43A650F198F291B00FF039D /* Westwood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Westwood.png; sourceTree = "<group>"; };
+		F43A6511198F29F900FF039D /* Culver City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Culver City.png"; sourceTree = "<group>"; };
+		F43A6513198F2B3B00FF039D /* LAX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LAX.png; sourceTree = "<group>"; };
+		F43A651D198F2FA600FF039D /* NHStoreObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NHStoreObject.h; path = ../NHStoreObject.h; sourceTree = "<group>"; };
+		F43A651E198F2FA600FF039D /* NHStoreObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NHStoreObject.m; path = ../NHStoreObject.m; sourceTree = "<group>"; };
+		F43A6520198F346B00FF039D /* Venice_Palms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Venice_Palms.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +129,11 @@
 				F43A649B198ECE3800FF039D /* NHAppDelegate.h */,
 				F43A649C198ECE3800FF039D /* NHAppDelegate.m */,
 				F43A649E198ECE3800FF039D /* Main.storyboard */,
-				F43A64A1198ECE3800FF039D /* NHViewController.h */,
-				F43A64A2198ECE3800FF039D /* NHViewController.m */,
+				F43A64C1198ECEDD00FF039D /* NHLocationTableViewController.h */,
+				F43A64C2198ECEDD00FF039D /* NHLocationTableViewController.m */,
+				F43A651D198F2FA600FF039D /* NHStoreObject.h */,
+				F43A651E198F2FA600FF039D /* NHStoreObject.m */,
+				F43A64C7198EE0C400FF039D /* Model */,
 				F43A64A4198ECE3800FF039D /* Images.xcassets */,
 				F43A6493198ECE3800FF039D /* Supporting Files */,
 			);
@@ -126,6 +143,12 @@
 		F43A6493198ECE3800FF039D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F43A650C198F260300FF039D /* NHStores.h */,
+				F43A650D198F260300FF039D /* NHStores.m */,
+				F43A6520198F346B00FF039D /* Venice_Palms.png */,
+				F43A6513198F2B3B00FF039D /* LAX.png */,
+				F43A6511198F29F900FF039D /* Culver City.png */,
+				F43A650F198F291B00FF039D /* Westwood.png */,
 				F43A6494198ECE3800FF039D /* Burger Wait Time-Info.plist */,
 				F43A6495198ECE3800FF039D /* InfoPlist.strings */,
 				F43A6498198ECE3800FF039D /* main.m */,
@@ -150,6 +173,13 @@
 				F43A64B4198ECE3800FF039D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F43A64C7198EE0C400FF039D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +261,11 @@
 			files = (
 				F43A64A5198ECE3800FF039D /* Images.xcassets in Resources */,
 				F43A6497198ECE3800FF039D /* InfoPlist.strings in Resources */,
+				F43A6512198F29F900FF039D /* Culver City.png in Resources */,
+				F43A6521198F346B00FF039D /* Venice_Palms.png in Resources */,
+				F43A6514198F2B3B00FF039D /* LAX.png in Resources */,
 				F43A64A0198ECE3800FF039D /* Main.storyboard in Resources */,
+				F43A6510198F291B00FF039D /* Westwood.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F43A64A3198ECE3800FF039D /* NHViewController.m in Sources */,
+				F43A64C3198ECEDD00FF039D /* NHLocationTableViewController.m in Sources */,
 				F43A649D198ECE3800FF039D /* NHAppDelegate.m in Sources */,
 				F43A6499198ECE3800FF039D /* main.m in Sources */,
+				F43A651F198F2FA600FF039D /* NHStoreObject.m in Sources */,
+				F43A650E198F260300FF039D /* NHStores.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +493,7 @@
 				F43A64BD198ECE3800FF039D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F43A64BE198ECE3800FF039D /* Build configuration list for PBXNativeTarget "Burger Wait TimeTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +502,7 @@
 				F43A64C0198ECE3800FF039D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,4 +10,7 @@
 
 @interface NHLocationTableViewController : UITableViewController
 
+@property(strong, nonatomic) NSMutableArray *storeLocation;
+
+
 @end

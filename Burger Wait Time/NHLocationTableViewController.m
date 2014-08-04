@@ -7,6 +7,8 @@
 //
 
 #import "NHLocationTableViewController.h"
+#import "NHStores.h"
+#import "NHStoreObject.h"
 
 @interface NHLocationTableViewController ()
 
@@ -32,6 +34,31 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    self.storeLocation = [[NSMutableArray alloc]init];
+    
+    for (NSMutableDictionary *storeData in [NHStores allKnownStores])
+    {
+        NSString *imageName = [NSString stringWithFormat:@"%@.png", storeData [STORE_NICKNAME]];
+        
+        NHStoreObject *store = [[NHStoreObject alloc] initWithData:storeData andImage:[UIImage imageNamed:imageName]];
+        
+        [self.storeLocation addObject: store];
+        
+    }
+    
+    
+//    NSString *storeLocation1 = @"Westwood";
+//    NSString *storeLocation2 = @"Culver City";
+//    NSString *storeLocation3 = @"LAX";
+//    NSString *storeLocation4 = @"Venice";
+//    
+//    [self.storeLocation addObject:storeLocation1];
+//    [self.storeLocation addObject:storeLocation2];
+//    [self.storeLocation addObject:storeLocation3];
+//    [self.storeLocation addObject:storeLocation4];
+//    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -46,26 +73,38 @@
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return [self.storeLocation count];
+    
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
     
-    // Configure the cell...
+    
+    static NSString *CellIdentifier = @"Cell";
+
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    
+    NHStoreObject *store = [self.storeLocation objectAtIndex:indexPath.row];
+    cell.textLabel.text = store.nickName;
+    cell.detailTextLabel.text = store.storeAddress;
+    cell.imageView.image = store.storeImage;
+    cell.backgroundColor = [UIColor blackColor];
+    cell.textLabel.textColor = [UIColor whiteColor];
+    cell.detailTextLabel.textColor = [UIColor colorWithWhite:0.5 alpha:1.0];
+    
     
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.
