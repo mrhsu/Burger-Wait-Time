@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F405C2F2199731E6000AD1BC /* NHStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F405C2F1199731E6000AD1BC /* NHStoreViewController.m */; };
 		F43A648D198ECE3800FF039D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43A648C198ECE3800FF039D /* Foundation.framework */; };
 		F43A648F198ECE3800FF039D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43A648E198ECE3800FF039D /* CoreGraphics.framework */; };
 		F43A6491198ECE3800FF039D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43A6490198ECE3800FF039D /* UIKit.framework */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F405C2F0199731E6000AD1BC /* NHStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHStoreViewController.h; sourceTree = "<group>"; };
+		F405C2F1199731E6000AD1BC /* NHStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHStoreViewController.m; sourceTree = "<group>"; };
 		F43A6489198ECE3800FF039D /* Burger Wait Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Burger Wait Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43A648C198ECE3800FF039D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F43A648E198ECE3800FF039D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -129,6 +132,8 @@
 				F43A649B198ECE3800FF039D /* NHAppDelegate.h */,
 				F43A649C198ECE3800FF039D /* NHAppDelegate.m */,
 				F43A649E198ECE3800FF039D /* Main.storyboard */,
+				F405C2F0199731E6000AD1BC /* NHStoreViewController.h */,
+				F405C2F1199731E6000AD1BC /* NHStoreViewController.m */,
 				F43A64C1198ECEDD00FF039D /* NHLocationTableViewController.h */,
 				F43A64C2198ECEDD00FF039D /* NHLocationTableViewController.m */,
 				F43A651D198F2FA600FF039D /* NHStoreObject.h */,
@@ -286,6 +291,7 @@
 			files = (
 				F43A64C3198ECEDD00FF039D /* NHLocationTableViewController.m in Sources */,
 				F43A649D198ECE3800FF039D /* NHAppDelegate.m in Sources */,
+				F405C2F2199731E6000AD1BC /* NHStoreViewController.m in Sources */,
 				F43A6499198ECE3800FF039D /* main.m in Sources */,
 				F43A651F198F2FA600FF039D /* NHStoreObject.m in Sources */,
 				F43A650E198F260300FF039D /* NHStores.m in Sources */,

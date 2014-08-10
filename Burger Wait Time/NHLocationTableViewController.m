@@ -97,8 +97,8 @@
     cell.textLabel.text = store.nickName;
     cell.detailTextLabel.text = store.storeAddress;
     cell.imageView.image = store.storeImage;
-    cell.backgroundColor = [UIColor blackColor];
-    cell.textLabel.textColor = [UIColor whiteColor];
+    cell.backgroundColor = [UIColor clearColor];
+    cell.textLabel.textColor = [UIColor redColor];
     cell.detailTextLabel.textColor = [UIColor colorWithWhite:0.5 alpha:1.0];
     
     
